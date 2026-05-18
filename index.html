@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Birthday ❤️</title>
+  <style>
+    body {
+      background-color: black;
+      color: #00ff88;
+      font-family: monospace;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    .box {
+      border: 2px solid #00ff88;
+      padding: 20px;
+      width: 70%;
+      margin: auto;
+      border-radius: 10px;
+    }
+
+    button {
+      background: #00ff88;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 20px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="box">
+  <h1>Initializing Birthday Boy...</h1>
+  <p>System scan complete.</p>
+  <p>No bugs detected.</p>
+  <p>Most loved human found ❤️</p>
+
+  <button onclick="message()">
+    Click Me
+  </button>
+
+  <p id="text"></p>
+</div>
+
+<script>
+function message() {
+  document.getElementById("text").innerHTML =
+  "Happy Birthday baby ❤️ Thank you for existing.";
+}
+</script>
+
+</body>
+</html>
